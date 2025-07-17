@@ -33,7 +33,6 @@ public class UserController {
 	public User loginUser(@RequestBody LoginRequest request) {
 		
 		return service.loginUser(request);
-
 	}
 
 	@CrossOrigin(methods = RequestMethod.POST)
@@ -45,7 +44,6 @@ public class UserController {
 		} else {
 			return new ResponseEntity<Integer>(3, HttpStatus.OK);
 		}
-
 	}
 
 	@GetMapping("/get-user-by-username/{username}")

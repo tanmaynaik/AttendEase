@@ -44,7 +44,7 @@ public class AttendanceController {
 		return attendanceRecordService.getAllAttendanceRecords();
 	}
 	
-	@GetMapping("/get-attendance-by-date-subjet/{date}/{subjectId}")
+	@GetMapping("/get-attendance-by-date-subject/{date}/{subjectId}")
 	public List<AttendanceRecord> getAllAttendanceRecords(@PathVariable String date,@PathVariable long subjectId){
 
 		return attendanceRecordService.getAllAttendanceRecords(date,subjectId);

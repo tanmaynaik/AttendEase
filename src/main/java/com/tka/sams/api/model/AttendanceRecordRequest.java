@@ -7,7 +7,7 @@ public class AttendanceRecordRequest {
 	private Long subjectId;
 	private String date;
 	private String time;
-    private int numberOfStudents;;
+    private int numberOfStudents;
 
 	private List<Long> studentIds;
 

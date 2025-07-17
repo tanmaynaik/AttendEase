@@ -13,7 +13,8 @@ import javax.persistence.ManyToOne;
 
 @Entity
 public class AttendanceRecord {
-    @Id
+    
+	@Id
     private String id;
     
     @ManyToOne

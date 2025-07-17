@@ -32,7 +32,6 @@ public class SubjectController {
 
 	@PostMapping("/add-subject")
 	@CrossOrigin(methods = RequestMethod.POST)
-
 	public Subject createSubject(@RequestBody Subject subject) {
 		return subjectService.createSubject(subject);
 	}
